@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farrel Maulana Irfan - Frontend Enthusiast</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .top-section {
+            background-color: #D891EF;
+            flex: 2;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .bottom-section {
+            background-color: #8E4585;
+            flex: 1;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            color: black;
+            text-decoration: none;
+        }
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            background-color: white;
+            width: 80%;
+            max-width: 800px;
+            height: 400px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .photo {
+            flex: 1;
+            background-color: #3A59A8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .info {
+            flex: 1;
+            background-color: #D891EF;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        h1 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 28px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-section">
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+        <div class="bottom-section"></div>
+        <div class="content">
+            <div class="photo">
+                <img src="farrel.jpg" alt="Farrel Maulana Irfan">
+            </div>
+            <div class="info">
+                <h1>Hello & Welcome</h1>
+                <h2>I'M FARREL MAULANA IRFAN</h2>
+                <p>Frontend Enthusiast</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Alata, sans-serif;
+    background: linear-gradient(to bottom, #E0FFFF 50%, #ADD8E6 50%);
+    min-height: 100px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+    background-color: transparent;
+    gap: 50px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+  }
+  
+  .profile-card {
+    display: flex;
+    background-color: #E0FFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+    width: 800px;
+    top: -50px;
+  }
+  
+  .profile-card img {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .profile-card .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .profile-card .text p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .profile-card .text h1 {
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+  
+  .profile-card .text h2 {
+    margin: 10px 0 0 0;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  
+  footer {
+    background-color: #ADD8E6;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .footer-content p {
+    margin: 5px;
+    color: black;
+  }
+  
